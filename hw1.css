@@ -1,0 +1,135 @@
+header {
+	background-color: silver;
+	background-image: url(flywheel.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding: 30px;
+}
+h1 {
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size: x-large;
+	text-transform: uppercase;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body
+{
+	padding: 20px;
+	margin: 20px;
+	text-size-adjust: 2px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav
+{
+	text-align: center;
+}
+nav a
+{
+	margin: 5px;
+	padding: 10px 30px 10px 30px;
+	border-radius: 0.1cm;
+	background-origin: padding-box;
+	background-color: rgba(191, 210, 211, 0.6);
+	color: black;
+	text-decoration: solid;
+	display: inline-block;
+	margin-right: 140px;
+	font-weight: bold;
+	font-family: 'Courier New', Courier, monospace;
+}
+.active
+{
+	background-color: #ffffff;
+	font-weight: bold;
+	font-family: 'Courier New', Courier, monospace;
+}
+.left
+{
+	width: 300px;
+	height: 600px;
+	background: rgb(88, 124, 21);
+	float: left;
+	padding: 5px;
+}
+.left img
+{
+	vertical-align: middle;
+	border: solid 3px black;
+	width: 200px;
+	margin-top: 10%;
+	margin-bottom: 2%;
+	margin-left: 16%;
+	margin-right: auto;
+}
+.right
+{
+	width: 750px;
+	display: inline-block;
+	padding-left: 5px;
+}
+p
+{
+	font-size: 20px;
+	font-family: 'Times New Roman', Times, serif;
+}
+h2 
+{
+	font-weight: bold;
+	font-size: 30px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+table
+{
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 100%;
+	font-weight: bold;
+	line-height: 15px;
+	margin: 0 auto;
+	width: 90%;
+	border-radius: 4px 4px 4px 4px;
+	padding-bottom: 5%;
+}
+table, td, th
+{
+	padding: 0.3%;
+}
+th
+{
+	background: linear-gradient(#445626, #6a863b);
+	border-radius: 4px 4px 0px 0px;
+	font-variant: small-caps;
+	border-bottom: 2px solid olive;
+	font-size: 100%;
+	line-height: 15px;
+	color: white;
+	padding: 2%
+}
+th, tr td
+{
+	text-align: center;
+}
+tr td
+{
+	opacity: 0.8;
+}
+th:first-child, tr td:first-child
+{
+	text-align: left;
+}
+tr:hover td
+{
+	opacity: 1;
+	color: black;
+	font-size: 100%;
+	line-height: 15px;
+}
+td
+{
+	color: black;
+	background-color: rgba(166, 182, 103, 0.829);
+	padding: 15px;
+	border-radius: 2px;
+	text-shadow: cadetblue;
+	font-size: 80%;
+}
